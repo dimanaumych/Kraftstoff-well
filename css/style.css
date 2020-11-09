@@ -1,0 +1,209 @@
+
+a {
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+
+}
+
+.wood-wrapper{
+    max-width: 100%;
+    padding: 20px 0px;
+    display: flex;
+}
+
+.wood-container-left{
+    margin-right: 20px;
+    width: 46%;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 36px;
+    background-image: url("../images/front-page/wood1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.wood-wrapper p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.slice-wood p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.wood-container-right{
+    width: 50%;
+    height: 866px;
+}
+
+.wood-container-right__top{
+    width: auto;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 36px;
+    background-image: url("../images/front-page/wood-top.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.wood-container__down{
+    width: 100%;
+    height: 462px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.wood-container-right__down{
+    width: 49%;
+    padding: 36px;
+    background-image: url("../images/front-page/right-wood.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.wood-container-right__down:nth-child(1){
+    width: 49%;
+    margin-right: 20px;
+    background-image: url("../images/front-page/left-wood.png");
+}
+
+
+/*Slice Part*/
+
+.slice-wood{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.slice-wood-right{
+    width: 22%;
+    margin-left: 20px;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 36px;
+    background-image: url("../images/front-page/right-down-wood.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.slice-wood-left{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.slice-wood-left__top{
+    width: auto;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 36px;
+    background-image: url("../images/front-page/down-wood-down.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.slice-wood__down{
+    width: 100%;
+    height: 462px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.slice-wood-left__down{
+    width: 59%;
+    padding: 36px;
+    background-image: url("../images/front-page/white-wood.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.slice-wood-left__down:nth-child(1){
+    width: 30%;
+    margin-right: 20px;
+    background-image: url("../images/front-page/top-left-wood.png");
+}
+
+article{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.article-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.info-article{
+    width: 49%;
+    margin-right: 68px;
+}
+
+
+.info-article h1{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+    color: #442902;
+    margin-bottom: 30px;
+}
+
+.info-article p{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+    color: #131312;
+}
+
+.image-article{
+    width: 49%;
+    margin-top: 80px;
+    height: 700px;
+    background-image: url("../images/front-page/article.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
