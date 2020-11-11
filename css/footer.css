@@ -7,5 +7,87 @@ footer{
     max-width: 1200px;
     margin: 0px auto;
     display: flex;
+    align-items: center;
     padding: 66px 0px;
+}
+
+.logo{
+    width: 201px;
+    height: 22px;
+    margin-right: 120px;
+}
+
+.info-block{
+    margin-right: 70px;
+}
+
+.point{
+    width: 12px;
+    height: 16px;
+    margin-right: 13px;
+    margin-top: 9px;
+}
+
+.phone{
+    width: 18px;
+    height: 16px;
+    margin-right: 13px;
+    margin-top: 9px;
+}
+
+/*.clock{*/
+/*    width: 18px;*/
+/*    height: 16px;*/
+/*    margin-right: 13px;*/
+/*    margin-top: 9px;*/
+/*}*/
+
+
+.image-info{
+    display: flex;
+}
+
+.info-block p{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.image-info p{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.instagram{
+    width: 24px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.facebook{
+    width: 12px;
+    height: 23px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.telegram{
+    width: 21px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.arrow-up{
+    margin-left: 75px;
+    cursor: pointer;
 }
