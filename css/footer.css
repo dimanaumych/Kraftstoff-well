@@ -9,6 +9,7 @@ footer{
     display: flex;
     align-items: center;
     padding: 66px 0px;
+    justify-content: space-around;
 }
 
 .logo{
@@ -90,4 +91,48 @@ footer{
 .arrow-up{
     margin-left: 75px;
     cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+
+    .info-display{
+        display: none;
+    }
+
+   .footer-container{
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+
+}
+
+@media (max-width: 768px) {
+
+    .info-block{
+        display: none;
+    }
+
+    .social-life{
+        display: none;
+    }
+
+    footer .logo {
+        margin-right: 0px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    .image-article {
+        height: 310px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .arrow-up {
+        margin-left: 10px;
+        cursor: pointer;
+    }
 }
